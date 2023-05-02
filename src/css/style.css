@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: var(--fundo);
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Khumb Sans' , sans-serif;
+}
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cartao-de-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+}
+
+.cartao-de-perfil .informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.cartao-de-perfil .informacoes img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.cartao-de-perfil .numeros-do-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.numeros-do-perfil .info .quantidade, .cartao-de-perfil .informacoes p{
+    font-weight: 700;
+}
+
+.cartao-de-perfil .informacoes .idade, .cartao-de-perfil .informacoes .cidade, .numeros-do-perfil .info .descricao{
+    color: var(--text-color);
+}
